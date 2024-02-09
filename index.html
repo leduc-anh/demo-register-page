@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExchageclassFPT</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fronts/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+    
+     <div id="content">
+        <!-- logo a and language -->
+        <div class="head-content">
+            <div class="logo-header">
+                <img class="logo-banner" src="./assets/img/Exchange class FPT-logos_transparent.png" alt="logo-brand">
+                <img class="logo-fpt" src="./assets/img/kogofpt.png" alt="logo fpt">
+                <div class="language">
+                    <label for="change-language" class="change-language-btn">
+                        <i class="ti-world"></i>
+                        Tiêng Việt
+                        <i class="ti-arrow-circle-down"></i>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- signin and slogan -->
+        <div class="middle-content">
+        <div class="slogan">
+            <img src="./assets/img/logo-brand2.png" alt="">
+            <p class="slogan-description">
+                Nơi trao đổi thông tin lớp học, trao đổi thông tin cá nhân, trò chuyện của sinh viên Đại Học FPT 1 cách dễ dàng   !!!
+            </p>
+        </div>
+        <div class="sign-in">
+            <div class="signin-container">
+
+                <div class="task-help">
+                    <i class="ti-help-alt"></i>
+                </div>
+                <div class="signin-create">
+                    <div class="task-signin">
+                        <header class="sign-header">
+                            <i class="ti-user"></i>
+                            Đăng nhập
+                        </header>
+                        <div class="signin-body">
+                            <label for="bar-username" class="modal-label" >
+                                Tên đăng nhập
+                            </label>
+                            <input id="bar-username" type="email || number" class="modal-input" placeholder="Địa chỉ email hoặc số điện thoại">
+                            <label for="bar-password" class="modal-label">
+                                Mật Khẩu
+                            </label>
+                            <input id="bar-password" type="password" class="modal-input" placeholder="Password" >
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="btnPassword">
+                                  <i class="ti-eye"></i>
+                                </button>
+                              </div>
+                              <div class="forgot-pas">
+                                <a href="#">Quên mật khẩu ư ngu thế ?</a>
+                              </div>
+                              <button class="signin-btn">
+                                ĐĂNG NHẬP 
+                            </button>
+                        </div>
+                    </div>
+                   
+                    <div class="signin-footer">
+                        <p class="create-account">
+                            Chưa có tài khoản á ?
+                        </p>
+                        <button class="Createacc-btn js-create-btn">Thế thì đăng ký ngay thôi chứ còn j nữa</button>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+        </div>
+        <div id="footer">
+            <div class="socail-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter-alt"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">ExchageclassFPT</a></p>
+        
+      </div>
+      </div>
+      
+    </div>
+    <div class="register-model">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="ti-user">
+                    Đăng Ký
+                </i>
+            </header>
+            <div class="modal-body">
+                <form action="">
+                    <label for="nameuser" class="modal-label-register">
+                        <i class="ti-stamp"></i>
+                        Tên tài khoản
+                    </label>
+                    <input id="nameuser" type="text" class="modal-input-register" placeholder="Tên tài khoản" required>
+                    <label for="email" class="modal-label-register">
+                        <i class="ti-email"></i>
+                        Địa chỉ Email
+                    </label>
+                    <input id="email" type="email" class="modal-input-register" placeholder="Nhập email" required>
+                    <label for="phone-number" class="modal-label-register">
+                        <i class="ti-mobile"></i>
+                        Số Điện Thoại
+                    </label>
+                    <input id="phone-number" type="number" required class="modal-input-register" placeholder="8-10 số" >
+                    <label for="password1" class="modal-label-register">
+                        <i class="ti-lock"></i>
+                        Tạo mật khẩu
+                    </label>
+                    <input id="password1" type="password" class="modal-input-register" placeholder="password" required
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                    <p class="warn-pasword">
+                        *Lưu ý: Mật khẩu phải từ 8 kí tự trở lên, có ít nhất 1 số và 1 ký tự viết hoa
+                    </p>
+                    <label for="password2" class="modal-label-register">
+                        <i class="ti-lock"></i>
+                        Nhập lại mật khẩu
+                    </label>
+                    <input id="password2" type="password" class="modal-input-register" placeholder="password" required
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                    
+                    <input type="submit" id="register-btn" value="ĐĂNG KÝ">
+                      
+                </form>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- ẩn xem mật khẩue -->
+    <script>
+        
+            const ipnElement = document.querySelector('#bar-password')
+            const btnElement = document.querySelector('#btnPassword')
+
+
+        btnElement.addEventListener('click', function() {
+ 
+         const currentType = ipnElement.getAttribute('type')
+ 
+        ipnElement.setAttribute(
+    'type',
+    currentType === 'password' ? 'text' : 'password'
+  )
+})
+    </script>
+    <!-- đóng mở đăng ký -->
+    <script>
+        const register = document.querySelector('.js-create-btn')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modal = document.querySelector('.register-model')
+        function showregistertask(){
+            modal.classList.add('open')
+        }
+        function Closeregistertask(){
+            modal.classList.remove('open')
+        }
+        modalClose.addEventListener('click', Closeregistertask)
+        register.addEventListener('click', showregistertask)
+        modal.addEventListener('click', Closeregistertask)
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
+    </script>
+</body>
+</html>

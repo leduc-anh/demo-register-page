@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+.clear {
+    clear: both;
+}
+#main {
+  
+   background-image:url(../img/gold-shiny-background-with-variating-hues.jpg);
+   background-size:cover;
+     background-repeat: repeat-y;
+   top: 0;
+   display: flex;
+   
+   
+}
+#content {
+    
+    background-image: url(../img/background-den-dep-nhat-1.png);
+    height: 950px;
+    width: 100%;
+
+    position: relative;
+    animation: fadeinsign-in ease 1s;
+}
+#content .logo-fpt {
+    padding: 35px 0;
+}
+
+#content .language{
+    margin: 20px;
+    color: #fff;
+    float: right;
+        padding: 10px 10px;
+        font-size: 20px;
+    line-height: 46.5px;
+}
+
+.language:hover, .change-language-btn:hover {
+    cursor: pointer;
+    background-color: #ff9900;   
+}
+.middle-content {
+    display: flex;
+    
+}
+
+.middle-content .slogan{
+    display: flex;
+    width: 50%;
+    margin: 2px;
+    align-items: flex-start;
+    
+
+}
+.slogan .slogan-description {
+    color: #fff;
+    font-family:monospace;
+    font-size: 20px;
+    max-width: 400px;
+    font-style: italic;
+    text-align:center;
+    margin-top: 56px; 
+}
+.signin-container {
+    background-color: #fff;
+    width: 500px;
+    max-width: calc(100%-100px);
+    
+    position: relative;
+    float: right;
+    
+    
+}
+.task-help {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.task-help:hover {
+    background-color: #ff9900;
+}
+.task-signin {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.sign-header {
+    
+    font-size: 25px; 
+    font-family:monospace;   
+}
+.modal-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.modal-input {
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 85%;
+    padding: 12px;
+    
+    margin-bottom: 24px;
+    margin-right: 5px;
+}
+
+.input-group-append {
+    display: inline-block;
+    
+    
+}
+.input-group-append .ti-eye {
+    font-size: 25px;
+    border: none;
+}
+button#btnPassword {
+    border: none;
+    background: none;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+button#btnPassword:hover{
+    background-color: #ccc;
+}
+.forgot-pas a{
+    font-size: 15px;
+    color: #ff9900;
+}
+.signin-btn {
+    margin-top: 40px;
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    background-color: #ff9900;
+    border: 0.5px solid #ccc;
+    font-size: 20px;
+    font-weight: 300;
+}
+.signin-btn:hover {
+    background-color: rgb(178, 107, 0);
+    cursor: pointer;
+    text-decoration: wavy;
+}
+
+.signin-footer {
+    margin-top: 20px;
+    padding:  30px 30px 30px 35px;
+    background-color: #ccc;
+    font-size: 20px;
+}
+.signin-footer .Createacc-btn {
+    margin-top: 40px;
+    width: 97%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #047a9c;
+    border: 0.5px solid #ccc;
+}
+.signin-footer .Createacc-btn:hover {
+    background-color: #005a70;
+    cursor: pointer;
+    text-decoration: wavy;
+}
+
+#footer {
+        padding: 70px 16px;
+        text-align: center;
+}
+.socail-list{
+    color: #fff;
+    font-size: 20px;
+}
+.socail-list a {
+    text-decoration: none;
+    color: #fff;
+}
+.socail-list a:hover {
+    opacity: 0.4;
+}
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(255, 174, 0, 0.6);
+
+}
+#footer .copyright a {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.register-model.open {
+    display: flex;
+}
+.register-model{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal-container {
+    background-color: #fff;
+    width: 700px;
+    min-height: 200px;
+    max-width: calc(100% - 32px);
+    position: relative;
+    animation: modalFadein-register ease 0.5s;
+}
+.modal-header {
+    background: #ff9900;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 10px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.modal-close:hover{
+    background-color: red;
+    opacity: 1;
+}
+.modal-body {
+    padding: 16px;
+}
+.modal-label-register{
+    display: block;
+    font-size: 20px;
+}
+.modal-input-register {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px ;
+    margin-bottom: 20px;
+}
+.warn-pasword {
+    margin-top: -15px;
+    font-style: italic;
+    color: red;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+#register-btn {
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 12px;
+    font-size: 20px;
+}
+#register-btn:hover {
+    background-color: rgb(178, 107, 0);
+    opacity: 0.9;
+}
+@keyframes fadeinsign-in {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes modalFadein-register {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0px);
+    }
+    
+}
